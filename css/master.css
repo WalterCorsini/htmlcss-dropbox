@@ -12,8 +12,23 @@ a{
     list-style-type: none;
 }
 /* commons */
-.flex{
+.flex-row{
     display: flex;
+}
+
+.flex-col{
+    display: flex;
+    flex-direction: column;
+}
+
+.w-30{
+    width: 30%;
+    /* debug */
+    border: 1px solid black;
+}
+
+.w-80{
+    width: 80%;
 }
 
 /* nav */
@@ -22,12 +37,6 @@ nav{
     height: 30px;
     /* debug */
     border: 1px solid black;    
-}
-
-.w-30{
-    width: 30%;
-    /* debug */
-    border: 1px solid black;
 }
 
 .grow{
@@ -40,4 +49,19 @@ nav{
 
 .w-30:nth-child(2){
     background-color: green;
+}
+
+/* header */
+header{
+    align-items: center;
+    justify-content: flex-end;
+    /* debug */
+    background-color: rgb(179, 209, 230);
+    height: 500px;
+}
+
+.hero{
+    /* debug */
+    height: 450px;
+    background-color: rgb(217, 216, 218);
 }
