@@ -239,3 +239,23 @@ main {
     height: 500px;
     background-color: rgb(120, 41, 156);
 }
+
+/* footer */
+footer{
+    /* debug */
+    /* height: 400px; */
+    background-color: black;
+}
+
+.footer-container{
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.split-5{
+    width: calc(100% / 7);
+    /* debug */
+    height: 380px;
+    background-color: rgb(198, 200, 41);
+}
