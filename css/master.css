@@ -20,15 +20,46 @@ a{
     display: flex;
     flex-direction: column;
 }
+/* widht */
+.w-80{
+    width: 80%;
+    /* debug */
+       border: 1px solid black;
+}
 
-.w-30{
-    width: 30%;
+.w-70{
+    width: 70%;
     /* debug */
     border: 1px solid black;
 }
 
-.w-80{
-    width: 80%;
+.w-33{
+    width: calc(100% / 3 - 10px);
+    /* debug */
+    border: 1px solid black;
+}
+
+.w-30{
+width: 30%;
+    /* debug */
+    border: 1px solid black;
+}
+
+/* margin */
+.m-t-100{
+    margin-top: 100px;
+}
+
+.m-t-30{
+    margin-top: 30px;
+}
+
+.m-t-20{
+    margin-top: 20px;
+}
+/* bg-color */
+.bg-grey{
+    background-color:  rgb(217, 216, 218);
 }
 
 /* nav */
@@ -54,14 +85,38 @@ nav{
 /* header */
 header{
     align-items: center;
-    justify-content: flex-end;
     /* debug */
     background-color: rgb(179, 209, 230);
-    height: 500px;
+    /* height: 500px; */
 }
 
 .hero{
     /* debug */
-    height: 450px;
+    margin-top: 50px;
+    height:450px;
     background-color: rgb(217, 216, 218);
+}
+
+main{
+    justify-content: center;
+}
+
+.section-1{
+    /* debug */
+    height: 100px;
+}
+
+.section-2{
+    justify-content: space-between;
+}
+
+.section-2 >.w-33{
+    /* debug */
+    background-color: rgb(217, 216, 218);
+    height: 600px;
+}
+
+.section-3{
+    /* debug */
+    height: 200px;
 }
