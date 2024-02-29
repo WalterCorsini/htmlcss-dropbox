@@ -83,6 +83,10 @@ a {
     margin-bottom: 100px;
 }
 
+.m-b-40{
+    margin-bottom: 40px;
+}
+
 .m-b-20{
     margin-bottom: 20px;
 }
@@ -185,6 +189,8 @@ main {
     background-color: rgb(63, 79, 182);
 }
 
+
+/* section logo */
 .section-logo >.w-33-nm{
     width: calc(100% / 3);
     border: 1px solid black;
@@ -206,6 +212,7 @@ main {
     height: 100%;
 }
 
+/* section sub-logo */
 .section-sub-logo{
     /* debug */
     justify-content: center;
@@ -224,4 +231,11 @@ main {
 
 .sub-logo >.w-30{
     background-color: rgb(90, 181, 77)    
+}
+
+/* section questions */
+.questions{
+    /* debug */
+    height: 500px;
+    background-color: rgb(120, 41, 156);
 }
