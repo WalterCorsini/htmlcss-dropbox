@@ -75,12 +75,20 @@ a {
     margin-top: 20px;
 }
 
+.m-t-10 {
+    margin-top: 10px;
+}
+
 .m-b-100{
     margin-bottom: 100px;
 }
 
 .m-b-20{
     margin-bottom: 20px;
+}
+
+.m-b-10{
+    margin-bottom: 10px;
 }
 
 /* bg-color */
@@ -177,10 +185,6 @@ main {
     background-color: rgb(63, 79, 182);
 }
 
-/* .section-logo{
-    height: 400px;
-} */
-
 .section-logo >.w-33-nm{
     width: calc(100% / 3);
     border: 1px solid black;
@@ -200,4 +204,24 @@ main {
     position: absolute;
     width: 100%;
     height: 100%;
+}
+
+.section-sub-logo{
+    /* debug */
+    justify-content: center;
+    background-color: rgb(181, 208, 232);
+}
+
+.sub-logo{
+    /* debug */
+    height: 200px;
+    /* background-color: blue; */
+}
+
+.sub-logo >.w-70{
+    background-color: rgb(63, 79, 182);
+}
+
+.sub-logo >.w-30{
+    background-color: rgb(90, 181, 77)    
 }
