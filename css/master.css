@@ -1,122 +1,162 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-img{
+img {
     max-width: 100%;
 }
 
-a{
+a {
     list-style-type: none;
 }
+
 /* commons */
-.flex-row{
+.flex-row {
     display: flex;
 }
 
-.flex-col{
+.flex-col {
     display: flex;
     flex-direction: column;
 }
+
+.wrap{
+    flex-wrap: wrap;
+}
 /* widht */
-.w-80{
+.w-80 {
     width: 80%;
     /* debug */
-       border: 1px solid black;
+    background-color: rgb(217, 216, 218);
+    border: 1px solid black;
 }
 
-.w-70{
+.w-70 {
     width: 70%;
     /* debug */
     border: 1px solid black;
 }
 
-.w-33{
+.w-33 {
     width: calc(100% / 3 - 10px);
     /* debug */
     border: 1px solid black;
 }
 
-.w-30{
-width: 30%;
+.w-30 {
+    width: 30%;
     /* debug */
     border: 1px solid black;
 }
 
 /* margin */
-.m-t-100{
+.m-t-100 {
     margin-top: 100px;
 }
 
-.m-t-30{
+.m-t-30 {
     margin-top: 30px;
 }
 
-.m-t-20{
+.m-t-20 {
     margin-top: 20px;
 }
+
+.m-b-100{
+    margin-bottom: 100px;
+}
+
+.m-b-20{
+    margin-bottom: 20px;
+}
+
 /* bg-color */
-.bg-grey{
-    background-color:  rgb(217, 216, 218);
+.bg-grey {
+    background-color: rgb(217, 216, 218);
 }
 
 /* nav */
-nav{
+nav {
     width: 100%;
     height: 30px;
     /* debug */
-    border: 1px solid black;    
+    border: 1px solid black;
 }
 
-.grow{
+.grow {
     flex-grow: 1;
 }
+
 /* debug */
-.w-30.grow{
+.w-30.grow {
     background-color: red;
 }
 
-.w-30:nth-child(2){
+.w-30:nth-child(2) {
     background-color: green;
 }
 
 /* header */
-header{
+header {
     align-items: center;
     /* debug */
     background-color: rgb(179, 209, 230);
     /* height: 500px; */
 }
 
-.hero{
+.hero {
     /* debug */
     margin-top: 50px;
-    height:450px;
+    height: 450px;
     background-color: rgb(217, 216, 218);
 }
 
-main{
+main {
     justify-content: center;
 }
 
-.section-1{
+.section-1 {
     /* debug */
     height: 100px;
 }
 
-.section-2{
+.section-2 {
     justify-content: space-between;
 }
 
-.section-2 >.w-33{
+.section-2>.w-33 {
     /* debug */
     background-color: rgb(217, 216, 218);
     height: 600px;
 }
 
-.section-3{
+.section-3 {
     /* debug */
+    background-color: rgb(120, 41, 156);
     height: 200px;
+}
+
+.section-4 {
+    /* debug */
+    height: 500px;
+}
+
+.section-4 >.w-70{
+    background-color: rgb(63, 79, 182);
+}
+
+.section-4 >.w-30{
+    background-color: rgb(90, 181, 77);
+}
+
+.section-5{
+    justify-content: space-between;
+}
+
+.section-5>.w-33 {
+    /* debug */
+    background-color: rgb(217, 216, 218);
+    height: 700px;
 }
