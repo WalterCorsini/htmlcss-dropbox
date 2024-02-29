@@ -67,6 +67,10 @@ a {
     margin-top: 100px;
 }
 
+.m-t-50{
+    margin-top: 50px;
+}
+
 .m-t-30 {
     margin-top: 30px;
 }
@@ -130,7 +134,6 @@ header {
 
 .hero {
     /* debug */
-    margin-top: 50px;
     height: 450px;
     background-color: rgb(217, 216, 218);
 }
@@ -166,10 +169,12 @@ main {
 }
 
 .section-4 >.w-70{
+    /* debug */
     background-color: rgb(63, 79, 182);
 }
 
 .section-4 >.w-30{
+    /* debug */
     background-color: rgb(90, 181, 77);
 }
 
@@ -193,8 +198,8 @@ main {
 /* section logo */
 .section-logo >.w-33-nm{
     width: calc(100% / 3);
+    /*debug */
     border: 1px solid black;
-    background-color: azure;
 }
 
 .cont-square{
@@ -214,7 +219,6 @@ main {
 
 /* section sub-logo */
 .section-sub-logo{
-    /* debug */
     justify-content: center;
     background-color: rgb(181, 208, 232);
 }
@@ -222,7 +226,6 @@ main {
 .sub-logo{
     /* debug */
     height: 200px;
-    /* background-color: blue; */
 }
 
 .sub-logo >.w-70{
@@ -242,8 +245,6 @@ main {
 
 /* footer */
 footer{
-    /* debug */
-    /* height: 400px; */
     background-color: black;
 }
 
