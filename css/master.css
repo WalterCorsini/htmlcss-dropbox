@@ -402,13 +402,6 @@ main {
 
 
 
-.section-6{
-    /* debug */
-    height: 200px;
-    background-color: rgb(63, 79, 182);
-}
-
-
 /* section logo */
 .section-logo >.w-33-nm{
     width: calc(100% / 3);
