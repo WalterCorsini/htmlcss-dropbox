@@ -171,6 +171,23 @@ body{
 
 }
 
+.p-l-10{
+    padding-left: 10px;
+}
+.p-l-20{
+    padding-left: 20px;
+}
+.p-l-30{
+    padding-left: 30px;
+}
+.p-l-40{
+    padding-left: 40px;
+}
+.p-l-50{
+    padding-left: 50px;
+}
+
+
 /* styles */
 .al-center{
     text-align: center;
@@ -326,9 +343,12 @@ main {
 
 
 .section-3 {
+    border: 1px solid rgb(217, 216, 218);;
     /* debug */
-    background-color: rgb(120, 41, 156);
-    height: 200px;
+}
+
+.section-3>h5:first-child{
+    border-bottom: 1px solid rgb(217, 216, 218);;
 }
 
 .section-4 {
