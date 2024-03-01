@@ -528,13 +528,13 @@ main {
     left: 10%;
 }
 
-.center-logo>h3.text {
+.center-logo>h4.text {
     position: absolute;
     bottom: 35%;
     left: 10%;
 }
 
-.center-logo>h3.author {
+.center-logo>h4.author {
     position: absolute;
     bottom: 20%;
     left: 10%;
