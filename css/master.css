@@ -103,7 +103,9 @@ body{
     margin-left: 50px;
 }
 
-
+.m-r-30{
+    margin-right: 30px;
+}
 
 .m-t-100 {
     margin-top: 100px;
@@ -275,6 +277,10 @@ header {
     padding: 1em 1em;
 }
 
+.button.center{
+    justify-content: center;
+}
+
 .arrow{
     font-size: 5rem;
 }
@@ -304,18 +310,15 @@ main {
 }
 
 .section-2>div>.title{
-    border: 1px solid rgb(217, 216, 218);
+    border: 2px solid rgb(217, 216, 218);
 }
 
-.section-2>.w-33{
-    text-align: center;
-}
 
 .w-33>.button{
   display: inline-block;
 }
 
-.w-33>hr{
+.list>hr{
     width: 30%;
 }
 
