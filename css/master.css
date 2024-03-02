@@ -52,9 +52,9 @@ svg {
 
 /* button */
 .button-blue {
-    color: white;
+    color: rgb(255, 255, 255);
     background-color: rgb(0, 97, 255);
-    padding: 1em 1em;
+    padding: .5em 1em;
 }
 
 .button-blue:hover{
@@ -65,8 +65,8 @@ svg {
 
 .button-black {
     padding: 0.7em 1em;
-    border: 1px solid grey;
-    color: black;
+    border: 1px solid rgb(128, 128, 128);
+    color: rgb(0, 0, 0);
 }
 
 .button-black:hover{
@@ -382,7 +382,7 @@ h5 {
 
 /* text color */
 .grey {
-    color: grey;
+    color: rgb(128, 128, 128);
 }
 
 .bordeaux {
@@ -391,11 +391,11 @@ h5 {
 
 /* nav */
 .nav-list>li>a{
-    color: blue;
+    color: rgb(0, 0, 255);
 }
 
 .nav-list>li>a:visited{
-    color: blue;
+    color: rgb(0, 0, 255);
 }
 
 
@@ -405,7 +405,7 @@ nav {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     height: 70px;
 }
 
@@ -454,7 +454,7 @@ header{
 
 .arrow{
     font-size: 5rem;
-    color: black;
+    color: rgb(0, 0, 0);
     transition-property: color;
     transition-duration: 2s;
 }
@@ -476,8 +476,8 @@ input[type="radio"] {
     width: 25px;
     height: 25px;
     padding: 6px;
-    border: 2px solid #bbbbbb;
-    background-color: #ffffff;
+    border: 2px solid rgb(187, 187, 187);
+    background-color: rgb(255, 255, 255);
     border-radius: 50%;
   }
 
@@ -486,8 +486,8 @@ input[type="radio"] {
     width: 25px;
     height: 25px;
     background-clip: content-box;
-    border: 7px solid #001aff;
-    background-color: #ffffff;
+    border: 7px solid rgb(0, 26, 255);
+    background-color: rgb(255, 255, 255);
     border-radius: 50%;
   }
 
@@ -607,14 +607,10 @@ input[type="radio"] {
 }
 
 .questions>ul>li{
-    border-top: 1px solid black; 
+    border-top: 1px solid rgb(0, 0, 0); 
     margin-bottom: 20px;
     margin-top: 20px;   
 }
-
-/* .questions>ul>li:last-child{
-    border-bottom: 1px solid black;
-} */
 
 .questions>ul>li>h3 {
     display: inline;
@@ -642,18 +638,18 @@ input[type="radio"] {
 
 li>i>h5 {
     font-family: Arial, Helvetica, sans-serif;
-    color: gray;
+    color: rgb(128, 128, 128);
 }
 
 /* footer */
 footer {
-    background-color: black;
+    background-color: rgb(0, 0, 0);
 }
 
 .footer-container {
     justify-content: center;
     width: 100%;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .footer-list>ul{
@@ -667,11 +663,11 @@ footer {
 }
 
 .footer-list>ul>li>a{
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .footer-list>ul>li>a:visited{
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .footer-list>h2{
