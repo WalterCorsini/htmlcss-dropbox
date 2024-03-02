@@ -47,11 +47,12 @@
     <!-- /nav -->
 
     <!-- header -->
-    <header class="flex-col bg-lightcyan">
+    <header class="flex-col bg-lightcyan w-100">
 
         <!-- hero -->
         <div class="hero flex-col m-t-50">
             <div class="w-80">
+
                 <h1 class="al-center m-t-100 m-b-100">Tutto cio che ti serve per il lavoro,in un unico posto</h1>
             </div>
             <div class="w-80 flex-row m-t-50">
@@ -69,22 +70,25 @@
             <img src="./img/jumbo.png" alt="">
         </div>
         <!-- /hero -->
+
     </header>
     <!-- /header -->
 
     <!-- main -->
     <main class="flex-row wrap w-100">
 
+        <!-- Business Plane -->
         <div class="w-70 m-b-100">
-            <!-- section 1 -->
-            <div class="section-1 m-t-100">
+
+            <!-- business month or year -->
+            <div class="title m-t-200 m-b-40">
                 <h2 class="m-b-40"> Trova il piano buisness che fa per te</h2>
                 <input type="radio" name="fatturazione" value="month"><span>Fatturazione mensile</span>
                 <input type="radio" name="fatturazione" value="year"><span>Fatturazione annuale</span>
             </div>
-            <!-- /section 1 -->
-
-            <!-- section-2 -->
+            <!-- /business month or year -->
+  
+            <!-- list section  -->
             <div class="list-container flex-row">
                 <div class="list">
                     <div class="title p-tb-10 al-center">
@@ -239,7 +243,7 @@
                         </li>
                     </ul>
 
-                    <a class="button-blue flex-row center" href="">prova gratis per 30 giorni</a> <br>
+                    <a class="button-blue flex-row center" href="">Contattaci</a> <br>
                     <h5 class="p-tb-50">oppure
                         <a href=""> acquista ora
                         </a>
@@ -270,30 +274,27 @@
                     </ul>
                 </div>
             </div>
+            <!-- /list section  -->
 
-
-
-
-        </div>
-
-
-
-        <!-- /section-2 -->
-
-        <!-- section 3-->
-        <div class="section-3 flex-col m-t-30">
-            <h5 class="al-center p-tb-10"><i class="fa-solid fa-building"></i> Team</h5>
-            <div class="p-tb-50 p-l-50">
-                <h3 class="m-b-20">Enterprise</h3>
-                <h4 class="m-b-100">Contatta l'ufficio vendite per i prezzi</h4>
-                <h5 class="grey">Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella
-                    gestione su qualsiasi scala</h5>
+            <!-- contact for enterprise business-->
+            <div class="contact flex-col m-b-100 m-t-30">
+                <h5 class="al-center p-tb-10"><i class="fa-solid fa-building"></i> Team</h5>
+                <div class="p-tb-50 p-l-50">
+                    <h3 class="m-b-20">Enterprise</h3>
+                    <h4 class="m-b-100">Contatta l'ufficio vendite per i prezzi</h4>
+                    <h5 class="grey">Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella
+                        gestione su qualsiasi scala</h5>
+                </div>
             </div>
-        </div>
-        <!-- /section 3 -->
+            <!-- /contact for enterprise business-->
 
-        <!-- section 4 -->
-        <div class="section-4 flex-row m-t-20 m-b-100">
+        </div>
+        <!-- Business Plane -->
+
+
+
+        <!-- Find a partner -->
+        <div class="flex-row m-t-20 m-b-100 w-70">
 
             <div class="w-60">
                 <img src="./img/partner.png" alt="">
@@ -308,11 +309,11 @@
             </div>
 
         </div>
-        <!-- /section 4 -->
-
-        <!-- section-5 -->
+        <!-- /Find a partner -->
+    
+        <!-- Utility Dropbox-->
         <h2> Esegui piu operazioni con Dropbox Buisness</h2>
-        <div class="section-5 flex-row wrap m-t-20">
+        <div class="utility flex-row wrap m-t-20 w-70">
             <div class="w-33 m-b-20 p-l-20">
                 <img src="./img/business-feature-switching-tools.png" alt="">
                 <h3 class="m-b-40">Passa di meno da uno strumento all'altro</h3>
@@ -363,14 +364,15 @@
             </div>
 
         </div>
-        <!-- /section-5 -->
+        <!-- Utility Dropbox-->
 
-        <!-- section 6 -->
-        <div class="section-6 w-60 m-t-30 p-l-20">
-            <h2 class="m-b-40">piu di 500.000 team utilizzano Dropbox Buisness</h2>
+
+        <!-- How many partners dropbox -->
+        <div class="partners w-70 m-t-100 m-b-100 p-l-20">
+            <h2 class="m-b-40 w-60">piu di 500.000 team utilizzano Dropbox Buisness</h2>
             <a href="">scopri di piu sui nostri clienti</a>
         </div>
-        <!-- /section 6 -->
+        <!-- How many partners dropbox -->
 
         </div>
 
@@ -621,6 +623,7 @@
 
         <!-- section sub-logo -->
         <div class="section-sub-logo bg-lightcyan w-100 flex-row">
+            
             <div class="sub-logo flex-row w-80 m-t-10 m-b-10 p-tb-100 p-l-150">
                 <h2 class="bordeaux">Porta Dropbox Buisness nella tua azienda.</h2>
                 <a class="button-black" href="">inizia la tua prova gratuita</a>
@@ -630,9 +633,9 @@
         <!-- /section sub-logo -->
 
         <!-- frequent questions -->
-        <div class="questions w-70 m-b-40 m-t-100">
-            <h2 class="p-b-50">Domande frequenti </h2>
-            <ul>
+        <div class="questions w-70 m-t-100 m-b-100">
+            <h2 class="p-b-50 m-b-20">Domande frequenti </h2>
+            <ul class="">
                 <li>
                     <h3>Qual'è la differenza tra Dropbox Buisness Standard e business?
                     </h3>
@@ -661,70 +664,72 @@
                     </i>
                 </li>
 
-
-
             </ul>
         </div>
         <!-- /frequent questions -->
+
     </main>
     <!-- /main -->
 
     <!-- footer -->
     <footer class="flex-row w-100">
         <div class="footer-container flex-row m-t-50 m-b-10">
-            <div class="split-5">
+            <div class="footer-list m-b-40">
                 <h2>Dropbox</h2>
                 <ul>
-                    <li class="m-t-20">Applicazione desktop</li>
-                    <li class="m-t-20">Perche Dropbox</li>
-                    <li class="m-t-20">Piani</li>
-                    <li class="m-t-20">Siurezza</li>
-                    <li class="m-t-20">Funzioni</li>
+                    <li class="m-t-20"><a href="">Applicazione desktop</a></li>
+                    <li class="m-t-20"><a href="">Perche Dropbox</a></li>
+                    <li class="m-t-20"><a href="">Piani</a></li>
+                    <li class="m-t-20"><a href="">Siurezza</a></li>
+                    <li class="m-t-20"><a href="">Funzioni</a></li>
                 </ul>
-                <hr>
+                <hr class="m-t-30 m-b-40">
+                <i class="fa-solid fa-earth-americas"></i>
+                <span> Italiano</span>
+                <i class="fa-solid fa-sort-up"></i>
             </div>
 
-            <div class="split-5">
+            <div class="footer-list">
                 <h2>Dropbox</h2>
                 <ul>
-                    <li class="m-t-20">Applicazione desktop</li>
-                    <li class="m-t-20">Perche Dropbox</li>
-                    <li class="m-t-20">Piani</li>
-                    <li class="m-t-20">Siurezza</li>
-                    <li class="m-t-20">Funzioni</li>
-                </ul>
-            </div>
-
-            <div class="split-5">
-                <h2>Dropbox</h2>
-                <ul>
-                    <li class="m-t-20">Applicazione desktop</li>
-                    <li class="m-t-20">Perche Dropbox</li>
-                    <li class="m-t-20">Piani</li>
-                    <li class="m-t-20">Siurezza</li>
-                    <li class="m-t-20">Funzioni</li>
+                    <li class="m-t-20"><a href="">Applicazione desktop</a></li>
+                    <li class="m-t-20"><a href="">Perche Dropbox</a></li>
+                    <li class="m-t-20"><a href="">Piani</a></li>
+                    <li class="m-t-20"><a href="">Siurezza</a></li>
+                    <li class="m-t-20"><a href="">Funzioni</a></li>
                 </ul>
             </div>
 
-            <div class="split-5">
+            <div class="footer-list">
                 <h2>Dropbox</h2>
                 <ul>
-                    <li class="m-t-20">Applicazione desktop</li>
-                    <li class="m-t-20">Perche Dropbox</li>
-                    <li class="m-t-20">Piani</li>
-                    <li class="m-t-20">Siurezza</li>
-                    <li class="m-t-20">Funzioni</li>
+                    <li class="m-t-20"><a href="">Applicazione desktop</a></li>
+                    <li class="m-t-20"><a href="">Perche Dropbox</a></li>
+                    <li class="m-t-20"><a href="">Piani</a></li>
+                    <li class="m-t-20"><a href="">Siurezza</a></li>
+                    <li class="m-t-20"><a href="">Funzioni</a></li>
                 </ul>
             </div>
 
-            <div class="split-5">
+            <div class="footer-list">
                 <h2>Dropbox</h2>
                 <ul>
-                    <li class="m-t-20">Applicazione desktop</li>
-                    <li class="m-t-20">Perche Dropbox</li>
-                    <li class="m-t-20">Piani</li>
-                    <li class="m-t-20">Siurezza</li>
-                    <li class="m-t-20">Funzioni</li>
+                    <li class="m-t-20"><a href="">Applicazione desktop</a></li>
+                    <li class="m-t-20"><a href="">Perche Dropbox</a></li>
+                    <li class="m-t-20"><a href="">Piani</a></li>
+                    <li class="m-t-20"><a href="">Siurezza</a></li>
+                    <li class="m-t-20"><a href="">Funzioni</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-list">
+                <h2>Dropbox</h2>
+                <ul>
+                    <li class="m-t-20"><a href="">Applicazione desktop</a></li>
+                    <li class="m-t-20"><a href="">Perche Dropbox</a></li>
+                    <li class="m-t-20"><a href="">Piani</a></li>
+                    <li class="m-t-20"><a href="">Siurezza</a></li>
+                    <li class="m-t-20"><a href="">Funzioni</a></li>
                 </ul>
             </div>
 
