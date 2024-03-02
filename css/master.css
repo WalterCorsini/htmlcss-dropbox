@@ -471,8 +471,17 @@ main {
 
 
 /* list section */
+.list>.title{
+    border: 1px solid rgb(217, 216, 218);
+}
+
 .icon {
     font-size: 25px;
+}
+
+.list>div:last-child{
+    padding: 10px;
+    border: 1px solid rgb(217, 216, 218);
 }
 
 .list{
@@ -497,6 +506,7 @@ main {
 }
 
 .contact {
+    width: 90%;
     border: 1px solid rgb(217, 216, 218);
     ;
     /* debug */
