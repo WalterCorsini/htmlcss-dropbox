@@ -546,7 +546,7 @@ input[type="radio"] {
 }
 
 .center-logo>img{
-    fill: #000;
+    filter: invert();
 }
 
 .center-logo>hr {
