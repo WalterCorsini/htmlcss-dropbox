@@ -441,6 +441,19 @@ nav>.w-40.right {
     margin-right: 80px;
 }
 
+.nav-list>li>a{
+    padding: 1em;
+    transition-property: border-bottom;
+    border-radius: 20px;
+    transition-duration: 1s;
+}
+
+.nav-list>li>a:hover{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+    transition: 1s;
+    text-decoration: none;
+}
+
 /* header */
 header{
     align-items: center;
@@ -459,6 +472,9 @@ header{
 }
 
 .arrow{
+    position: absolute;
+    top: 0;
+    left: 5%;
     font-size: 5rem;
     color: rgb(0, 0, 0);
     transition-property: color;
@@ -468,6 +484,64 @@ header{
 .arrow:hover{
     color: rgb(0, 97, 255);
     transition: 1s;
+}
+
+.glow-on-hover {
+    width: 220px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: rgb(180, 208, 231);
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(80px + 4px);
+    height: calc(80px + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background: rgb(180, 208, 231);
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+
+
+.cont-animation{
+    position: relative;
+    border: 1px solid black;
+    width: 70px;
+    height: 84px;
 }
 
 /* main */
