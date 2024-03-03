@@ -558,10 +558,6 @@ input[type="radio"] {
     position: relative;
 }
 
-.center-logo>img{
-    filter: invert();
-}
-
 .center-logo>hr {
     width: 20%;
     position: absolute;
@@ -601,6 +597,9 @@ input[type="radio"] {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.square>img{
+    filter: invert(1);
 }
 
 /* section sub-logo*/
