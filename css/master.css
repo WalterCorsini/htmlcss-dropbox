@@ -545,6 +545,10 @@ input[type="radio"] {
     position: relative;
 }
 
+.center-logo>img{
+    fill: #000;
+}
+
 .center-logo>hr {
     width: 20%;
     position: absolute;
