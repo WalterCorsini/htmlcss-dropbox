@@ -539,7 +539,7 @@ header{
 
 .cont-animation{
     position: relative;
-    border: 1px solid black;
+    border: 1px solid rgb(0, 0, 0);
     width: 70px;
     height: 84px;
 }
@@ -574,7 +574,7 @@ input[type="radio"] {
   input[type="radio"]:hover{
     width: 25px;
     height: 25px;
-    outline: 1px solid black;
+    outline: 1px solid rgb(0, 0, 0);
   }
 
 .list>.title{
@@ -625,7 +625,7 @@ input[type="radio"] {
 .section-logo>.w-33-nm {
     width: calc(100% / 3);
     /*debug */
-    border: 1px solid black;
+    border: 1px solid rgb(0, 0, 0);
 }
 
 .center-logo {
@@ -733,10 +733,14 @@ li>i>h5 {
 
 /* footer */
 footer {
+    position: relative;
     background-color: rgb(0, 0, 0);
+    bottom: 0;
+    left: 0;
 }
 
 .footer-container {
+    position: relative;
     justify-content: center;
     width: 100%;
     color: rgb(255, 255, 255);
@@ -769,4 +773,23 @@ border-radius: 20px;
 .footer-list>h2:hover{
     background-color: rgb(0, 97, 255);
     transition: 1s;
+}
+
+.language>i{
+    display: inline;
+}
+
+.language-list{
+    position: absolute;
+    top: 30%;
+    left: 2%;
+    width: 10%;
+    color: rgb(255, 255, 255);
+}
+
+#menu-language{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: none;
+    font-size: 20px;
 }
