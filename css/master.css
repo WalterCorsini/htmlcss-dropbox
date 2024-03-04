@@ -22,9 +22,9 @@ a {
     text-decoration: none;
 }
 
-a:hover{
+/* a:hover{
     text-decoration: underline;
-}
+} */
 
 
 body {
@@ -440,8 +440,8 @@ nav>.w-40.right {
 .nav-list.right>li {
     margin-right: 80px;
 }
-
-.nav-list>li>a{
+/*  with border radius e border bottom  on hover */
+/* .nav-list>li>a{
     padding: 1em;
     transition-property: border-bottom;
     border-radius: 20px;
@@ -452,7 +452,41 @@ nav>.w-40.right {
     border-bottom: 2px solid rgba(0, 0, 0, 0.5);
     transition: 1s;
     text-decoration: none;
+} */
+/* ul{
+    list-style-type: none;
+    margin-left: 30px;
+    color: black
+} */
+
+/*  animation underline list */
+.nav-left ul li,
+.nav-right ul li
+{
+    padding: 2px;
+    display: inline-block;
+    margin: 0 10px;
+    position: relative;
+    cursor: pointer;
 }
+
+.nav-left ul li::after,
+.nav-right ul li::after{
+    content: '';
+    position: absolute;
+    left:0;
+    bottom: 0px;
+    border-bottom:3px solid rgb(0, 0, 255);
+    height: 1px;        
+    width: 0%;
+    transition: 0.5s;
+}
+
+.nav-left ul li:hover::after,
+.nav-right ul li:hover::after{
+    width: 100%;
+}
+
 
 /* header */
 header{
@@ -752,8 +786,7 @@ footer {
 
 .footer-list {
     width: calc(100% / 7);
-    /* debug */
-    height: 380px;
+    /* debug */;
 }
 
 .footer-list>ul>li>a{
@@ -764,7 +797,7 @@ footer {
     color: rgb(255, 255, 255);
 }
 
-.footer-list>h2{
+/* .footer-list>h2{
 border-radius: 20px;
     transition-property: background-color;
     transition-duration: 1s;
@@ -773,7 +806,7 @@ border-radius: 20px;
 .footer-list>h2:hover{
     background-color: rgb(0, 97, 255);
     transition: 1s;
-}
+} */
 
 .language>i{
     display: inline;
@@ -792,4 +825,29 @@ border-radius: 20px;
     color: rgb(255, 255, 255);
     border: none;
     font-size: 20px;
+}
+
+/*  animation underline list */
+.footer-list ul li a
+{
+    padding: 10px 0;
+    display: inline-block;
+    margin: 0 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+.footer-list ul li a::after{
+    content: '';
+    position: absolute;
+    left:0;
+    bottom: 0px;
+    border-bottom:3px solid rgb(255, 255, 255);
+    height: 1px;        
+    width: 0%;
+    transition: 0.5s;
+}
+
+.footer-list ul li a:hover::after{
+    width: 100%;
 }
