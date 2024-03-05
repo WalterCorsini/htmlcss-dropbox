@@ -11,7 +11,7 @@ img {
 }
 
 hr{
-    width: 30%;
+    width: 30vw;
 }
 
 li {
@@ -27,7 +27,7 @@ body {
 }
 
 svg {
-    width: 62%;
+    width: 62vw;
     fill: rgb(255, 255, 255);
 }
 
@@ -90,23 +90,27 @@ svg {
 
 /* widht */
 .w-100 {
-    width: 100%;
+    width: 99vw;
 }
 
 .w-80 {
-    width: 80%;
+    width: 80vw;
 }
 
 .w-70 {
-    width: 70%;
+    width: 70vw;
 }
 
 .w-60 {
-    width: 60%;
+    width: 60vw;
+}
+
+.w-50 {
+    width: 50vw;
 }
 
 .w-40 {
-    width: 40%;
+    width: 40vw;
 }
 
 
@@ -115,11 +119,11 @@ svg {
 }
 
 .w-30 {
-    width: 30%;
+    width: 30vw;
 }
 
 .w-20 {
-    width: 20%;
+    width: 20vw;
 }
 
 /* margin */
@@ -417,7 +421,7 @@ nav {
     z-index: 9999;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 99vw;
     background-color: rgb(255, 255, 255);
     height: 70px;
 }
@@ -433,7 +437,7 @@ nav>.w-40.right {
 }
 
 .logo-header {
-    max-height: 50%;
+    max-height: 50vh;
 }
 
 /* .nav-list.left>li {
@@ -504,15 +508,16 @@ header{
 }
 
 .hero {
-    position: relative;
     align-items: center;
 }
 
-.hero>img {
-    position: absolute;
-    top: 43%;
-    right: 0%;
-    max-width: 65%;
+
+.hero-img>img {
+    max-width: none;
+    width: 50vw;
+    position: relative;
+    top: 0%;
+    left: 10%;
 }
 
 .arrow{
@@ -633,18 +638,17 @@ input[type="radio"] {
 .list{
     padding: 10px;
     border-radius: 20px;
-    width: 32%;
+    width: calc(100% / 3 - 20px / 3);
     max-width: 500px;
 }
 
 .list-container{
-    width: 100%;
-    max-width: 1333px ;
+    gap: 10px;
     justify-content: space-between;
 }
 
 .list>hr {
-    width: 30%;
+    width: 30vw;
 }
 
 .contact {
@@ -666,7 +670,7 @@ input[type="radio"] {
 
 /* section logo */
 .section-logo>.w-33-nm {
-    width: calc(100% / 3);
+    width: calc(99vw / 3);
 }
 
 .center-logo {
@@ -675,11 +679,11 @@ input[type="radio"] {
 }
 
 .center-logo>img{
-    width: 35%;
+    width: 15vw;
 }
 
 .center-logo>hr {
-    width: 20%;
+    width: 20vw;
 }
 /*
 .center-logo>img {
@@ -719,6 +723,7 @@ input[type="radio"] {
 
 
 .square>img{
+    width: 10vw;
     filter: invert(1);
 }
 
@@ -801,7 +806,7 @@ footer {
 .footer-container {
     position: relative;
     justify-content: center;
-    width: 100%;
+    width: 99vw;
     color: rgb(255, 255, 255);
 }
 
@@ -810,7 +815,7 @@ footer {
 }
 
 .footer-list {
-    width: calc(100% / 7);
+    width: calc(99vw / 7);
     /* debug */;
 }
 
