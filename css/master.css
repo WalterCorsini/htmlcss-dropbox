@@ -382,6 +382,10 @@ h5 {
     background-color: rgb(162, 211, 155);
 }
 
+.bg-lightgrey {
+    background-color: rgb(240, 240, 240);
+}
+
 .bg-grey {
     background-color: rgb(217, 216, 218);
 }
@@ -612,7 +616,7 @@ input[type="radio"] {
   }
 
 .list>.title{
-    border: 1px solid rgb(217, 216, 218);
+    border-bottom: 1px solid rgb(217, 216, 218);
     margin: -10px;
 }
 
@@ -627,7 +631,7 @@ input[type="radio"] {
 
 .list{
     padding: 10px;
-    border: 1px solid rgb(217, 216, 218);
+    border-radius: 20px;
     width: 32%;
     max-width: 500px;
 }
