@@ -48,12 +48,16 @@ svg {
     flex-grow: 1;
 }
 
+.block{
+    display: block;
+}
+
 /* button */
 .button-blue {
     color: rgb(255, 255, 255);
     background-color: rgb(0, 97, 255);
     padding: .5em 1em;
-    transition-property: padding;
+    transition-property: transform;
     transition-duration: .5s;
 }
 
@@ -61,7 +65,7 @@ svg {
     background-color: rgb(39, 122, 255);
     transition-duration: .5s;
     text-decoration: none;
-    padding: .7em 1.2em;
+    transform: scale(1.1);
 }
 
 .button-black {
@@ -432,13 +436,15 @@ nav>.w-40.right {
     max-height: 50%;
 }
 
-.nav-list.left>li {
+/* .nav-list.left>li {
     margin-left: 80px;
 }
 
 .nav-list.right>li {
     margin-right: 80px;
-}
+} */
+
+
 /*  with border radius e border bottom  on hover */
 /* .nav-list>li>a{
     padding: 1em;
@@ -464,7 +470,7 @@ nav>.w-40.right {
 {
     padding: 2px;
     display: inline-block;
-    margin: 0 10px;
+    margin: 0 20px;
     position: relative;
     cursor: pointer;
 }
@@ -491,6 +497,10 @@ nav>.w-40.right {
 /* header */
 header{
     align-items: center;
+}
+
+.hero-paragragh{
+    font-size: 1.3rem;
 }
 
 .hero {
@@ -629,7 +639,7 @@ input[type="radio"] {
 
 .list-container{
     width: 100%;
-    max-width: 1200px ;
+    max-width: 1333px ;
     justify-content: space-between;
 }
 
@@ -638,8 +648,12 @@ input[type="radio"] {
 }
 
 .contact {
-    width: 90%;
     border: 1px solid rgb(217, 216, 218);
+}
+
+.contact>div>span,
+.contact>div>p{
+    font-size: 1.2rem;
 }
 
 .contact>h5:first-child {
@@ -660,13 +674,14 @@ input[type="radio"] {
     border: 1px solid black;
 }
 
-.center-logo>hr {
-    width: 20%;
-    position: absolute;
-    top: 30%;
-    left: 10%;
+.center-logo>img{
+    width: 35%;
 }
 
+.center-logo>hr {
+    width: 20%;
+}
+/*
 .center-logo>img {
     width: 50%;
     position: absolute;
@@ -684,7 +699,13 @@ input[type="radio"] {
     position: absolute;
     bottom: 20%;
     left: 10%;
+} */
+
+.price,
+.sub-price{
+    font-size: 1.3rem;
 }
+
 
 /* create square */
 .cont-square {
@@ -729,9 +750,14 @@ input[type="radio"] {
 }
 
 .questions>ul>li{
+    justify-content: space-between;
     border-top: 1px solid rgb(0, 0, 0); 
     margin-bottom: 20px;
     margin-top: 20px;   
+}
+
+.questions>ul>li>span:first-child{
+    font-size: 1.5rem;
 }
 
 .questions>ul>li>h3 {
@@ -741,19 +767,24 @@ input[type="radio"] {
 .questions>ul>li>i {
     display: inline;
     font-size: 30px;
+    padding-left: 472px;
+}
+
+i>p{
+    display: block;
 }
 
 /* animation question */
-.questions>ul>li>i>h5 {
+.questions>ul>li>.answer {
     opacity: 0;
 }
 
-.questions>ul>li>i:hover>h5 {
+.questions>ul>li>i:hover + .answer{
     opacity: 1;
     margin-top: 50px;
 }
 
-.questions>ul>li>i>h5{
+.questions>ul>li>.answer{
     transition-property: margin-top, opacity;
     transition-duration: 2s;
     transition-timing-function: ease;
@@ -790,6 +821,10 @@ footer {
     /* debug */;
 }
 
+.footer-list>span{
+    font-size: 3rem;
+}
+
 .footer-list>ul>li>a{
     color: rgb(255, 255, 255);
 }
@@ -802,13 +837,6 @@ footer {
     display: inline;
 }
 
-.language-list{
-    position: absolute;
-    top: 30%;
-    left: 2%;
-    width: 10%;
-    color: rgb(255, 255, 255);
-}
 
 #menu-language{
     background-color: rgb(0, 0, 0);
