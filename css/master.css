@@ -11,7 +11,7 @@ img {
 }
 
 hr{
-    width: 30vw;
+    width: 3vw;
 }
 
 li {
@@ -335,25 +335,25 @@ p-b-50{
 }
 
 h1 {
-    font-size: 4.5em;
+    font-size: 3.5vw;
     font-weight: 900;
     font-family: sans-serif;
 }
 
 h2 {
-    font-size: 3rem;
+    font-size: 3vw;
 }
 
 h3 {
-    font-size: 1.7rem;
+    font-size: 1.7vw;
 }
 
 h4 {
-    font-size: 1.3rem;
+    font-size: 1.3vw;
 }
 
 h5 {
-    font-size: 1.1rem;
+    font-size: 1.1vw;
 }
 
 
@@ -504,7 +504,7 @@ header{
 }
 
 .hero-paragragh{
-    font-size: 1.3rem;
+    font-size: 1.3vw;
 }
 
 .hero {
@@ -524,7 +524,7 @@ header{
     position: absolute;
     top: 0;
     left: 5%;
-    font-size: 5rem;
+    font-size: 5vw;
     color: rgb(0, 0, 0);
     transition-property: color;
     transition-duration: 2s;
@@ -638,7 +638,7 @@ input[type="radio"] {
 .list{
     padding: 10px;
     border-radius: 20px;
-    width: calc(100% / 3 - 20px / 3);
+    width: calc(99vw / 3 - 20px / 3);
     max-width: 500px;
 }
 
@@ -648,7 +648,7 @@ input[type="radio"] {
 }
 
 .list>hr {
-    width: 30vw;
+    width: 5vw;
 }
 
 .contact {
@@ -657,7 +657,7 @@ input[type="radio"] {
 
 .contact>div>span,
 .contact>div>p{
-    font-size: 1.2rem;
+    font-size: 1.2vw;
 }
 
 .contact>h5:first-child {
@@ -683,7 +683,7 @@ input[type="radio"] {
 }
 
 .center-logo>hr {
-    width: 20vw;
+    width: 10vw;
 }
 /*
 .center-logo>img {
@@ -707,13 +707,13 @@ input[type="radio"] {
 
 .price,
 .sub-price{
-    font-size: 1.3rem;
+    font-size: 1.3vw;
 }
 
 
 /* create square */
 .square {
-    width: calc(100% / 2);
+    width: calc(32vw / 2);
     aspect-ratio:calc(1);
     display: flex;
     justify-content: center;
@@ -755,7 +755,7 @@ input[type="radio"] {
 }
 
 .questions>ul>li>span:first-child{
-    font-size: 1.5rem;
+    font-size: 1.5vw;
 }
 
 .questions>ul>li>h3 {
@@ -820,7 +820,7 @@ footer {
 }
 
 .footer-list>span{
-    font-size: 3rem;
+    font-size: 3vw;
 }
 
 .footer-list>ul>li>a{
